@@ -3,7 +3,177 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    
+    
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Navigasi-->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets\logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content-->
+    <main>
+      <article class="main-title">
+        <header>
+          <h1>Nice Clothes</h1>
+        </header>
+        <p>Be Fashionable Every Day</p>
+      </article>
+      
+    <!--Banner-->
+      <section class="main-content">
+        <div class="main-content-item">
+          <div class="main-banner-container">
+            <div class="main-content-banner banner-1">  
+            </div>
+            <div class="main-content-banner banner-2">
+            </div>
+            <div class="main-content-banner banner-3">
+            </div>
+            <div class="main-item">
+            </div>
+          </div>
+          
+    <!--Comment Section-->
+          <div class="comment">
+              <div class="item-icon">
+                <img src="assets\nol.jpg" alt="nol" />
+              </div>
+              <div style="margin-left: 15px">
+                <h3>Anonym</h3>
+                <p style="font-style: italic">"Kualitas pakaiannya sangat bagus"</p>
+              </div>
+          </div>
+
+    <!--Warning Section-->
+          <div class="peringatan">
+            <h3>Peringatan sebelum melakukan pembelian :</h3>
+            <ol>
+              <li>Pastikan barang yang dibeli sesuai dengan keinginan anda.</li>
+              <li>Pastikan barang yang dibeli sesuai hati nurani anda.</li>
+              <li>Pastikan barang yang dibeli sesuai dengan kebutuhan anda.</li>
+            </ol>
+          </div>
+          
+          </div>
+        </div>
+
+    <!--Form section-->
+        <form action="" class="main-content-item">
+          <p style="font-size: 30px">Contact Us</p>
+          <p style="padding-left: 5%;">Kami akan menghubungi anda setelah mengisi form di bawah ini :</p>
+          <label for="nama" style="padding-top: 15px">Name:</label>
+          <input type="text" id="nama" class="nama" placeholder="Masukkan Nama Anda" />
+
+          <label for="surat" style="padding-top: 15px">E-mail:</label>
+          <input type="text" id="surat" class="surat" placeholder="Masukkan E-mail Anda" />
+
+          <label for="pilihan" style="padding-top: 15px">What you need ? </label>
+          <select id="pilihan" name="pilihan">
+            <option value="jaket">Jacket</option>
+            <option value="tshirt">T-shirt</option>
+            <option value="jeans">Jeans</option>
+          </select>
+          <button type="button" onclick="formValidation();">Submit</button>
+
+        </form>
+
+      </section>
+    </main>
+
+    <main class="tengah">
+      <h1>US STORE</h1>
+    </main>
+
+    <div class="package-container">
+      <div class="package-list">
+        <div class="package-item">
+          <div class="package-icon"><img src="assets\logo2.png" /></div>
+          <div>
+            <h3 class="item-title">Batam</h3>
+            <div class="item-content">
+              <p>Ruko terdekat dengan rumah anda.</p>
+            </div>
+          </div>
+        </div>
+        <div class="package-item">
+          <div class="package-icon"><img src="assets\logo2.png" /></div>
+          <div>
+            <h3 class="item-title">Aceh</h3>
+            <div class="item-content">
+              <p>Ruko terdekat dengan rumah anda.</p>
+            </div>
+          </div>
+        </div>
+        <div class="package-item">
+          <div class="package-icon"><img src="assets\logo2.png" /></div>
+          <div>
+            <h3 class="item-title">Medan</h3>
+            <div class="item-content">
+              <p>Ruko terdekat dengan rumah anda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="package-container">
+    <div class="package-list">
+      <div class="package-item">
+        <div class="package-icon"><img src="assets\logo2.png" /></div>
+        <div>
+          <h3 class="item-title">Jakarta</h3>
+          <div class="item-content">
+            <p>Ruko terdekat dengan rumah anda.</p>
+          </div>
+        </div>
+      </div>
+      <div class="package-item">
+        <div class="package-icon"><img src="assets\logo2.png" /></div>
+        <div>
+          <h3 class="item-title">Bandung</h3>
+          <div class="item-content">
+            <p>Ruko terdekat dengan rumah anda.</p>
+          </div>
+        </div>
+      </div>
+      <div class="package-item">
+        <div class="package-icon"><img src="assets\logo2.png" /></div>
+        <div>
+          <h3 class="item-title">Semarang</h3>
+          <div class="item-content">
+            <p>Ruko terdekat dengan rumah anda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="bawah">
+    <h1>Ingin Langsung Membeli</h1>
+    <p>Silahkan langsung klik tombol dibawah ini :</p>
+    <button class="btn-pesan" type="button" onclick="formValidation();">Pesan</button>
+  </main>
+
+  <!--Footer section-->
+  <footer>
+    <p>Terms of Service</p>
+    <p>©2024  Maulana Ikhsan</p>
+  </footer>
+
+
+  <script src="js\script.js"></script>
+  </body>
 </html>
